@@ -50,8 +50,8 @@ def overlay_mask(image, probabilities):
 
 # Streamlit app
 def main():
-    st.title("Dental Caries Segmentation App")
-    st.write("Upload an X-ray image or select from existing images to detect dental caries.")
+    st.title("Dental Tooth Segmentation App")
+    st.write("Upload an X-ray image or select from existing images to see the model in action.")
 
     # Load the model
     model_path = "UNetEfficientnetB0-best.pth"
